@@ -1,0 +1,44 @@
+.card-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png"); /* Fixed Syntax */
+  background-size: cover; /* Ensures image covers the container */
+  background-position: center; /* Centers the image */
+  display: flex;
+  flex-direction: column; /* Use column if you want elements stacked */
+  justify-content: flex-start;
+  align-items: center; /* Centers content horizontally */
+  min-height: 100vh; /* Ensures full-screen height */
+  padding: 20px;
+}
+
+.heading {
+  color: Black;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-container {
+  background-color: aqua;
+  padding: 20px
+  height: 120px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px; /* Adds spacing between images */
+}
+.heading1 {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family:  sans-serif;
+    text-align: center;
+}
+.paragraph {
+    text-align: center;
+}
+.watch-img {
+  width: 150px; /* Adjust size */
+  height: auto;
+  border-radius: 10px;
+}
